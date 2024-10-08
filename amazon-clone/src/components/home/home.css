@@ -1,0 +1,21 @@
+
+.home_image{
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -250px;
+    filter: brightness(65%);
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1)50%, rgba(0, 0, 0, 0)100%);
+
+}
+.home_row{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+@media screen and (max-width:650px) {
+    .home_row{
+        display: block;
+    }
+    
+}
