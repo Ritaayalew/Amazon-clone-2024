@@ -14,12 +14,14 @@ const Home = () => {
             />
             <div className='home_row'>
                 <Product 
+                id={11}
                 title="The Easy 5-Ingredient Slow Cooker Cookbook: 100 Delicious No-Fuss Meals for Busy People"
                 price={11}
                 rating={3}
                 img="https://m.media-amazon.com/images/I/91H032PHDzL._SY522_.jpg"/>
 
                 <Product
+                id={12}
                 title="Counting Miracles: A Novel"
                 price={20.29}
                 rating={4}
@@ -28,18 +30,21 @@ const Home = () => {
 
             <div className='home_row'>
                 <Product 
+                id={13}
                 title="BAIMEI IcyMe Jade Roller & Gua Sha, Face Roller Redness Reducing Skin Care Tools, Self Care Pink Gift"
                 price={12.99}
                 rating={5}
                 img="https://m.media-amazon.com/images/I/61bAqal3ENL._SL1500_.jpg"/>
 
                 <Product
+                id={14}
                 title="H&B Lifting & Firming Silk Serum Anti-Aging Face Serum Collagen Gotu Kola"
                 price={11}
                 rating={3}
                 img="https://m.media-amazon.com/images/I/71s57WcgPbL._SX679_.jpg"/>
 
                 <Product
+                id={15}
                 title="YRY Smart Breath Odor Detector, Health Status Alarm, Portable Halimeter for Bad Breath, Precise MEMS Sensor VSC Detection"
                 price={14}
                 rating={5}
@@ -48,18 +53,21 @@ const Home = () => {
 
             <div className='home_row'>
                 <Product 
+                id={16}
                 title="Crock-Pot 7 Quart Oval Manual Slow Cooker, Stainless Steel (SCV700-S-BR), Versatile Cookware for Large Families or Entertaining"
                 price={29.99}
                 rating={4}
                 img="https://m.media-amazon.com/images/I/81s15a8-lGL._AC_SX679_.jpg"/>
 
                 <Product
+                id={17}
                 title="Ninja GR101 Sizzle Smokeless Indoor Grill & Griddle, 14'' Interchangeable Nonstick Plates, Dishwasher-Safe Removable Mesh Lid, 500F Max Heat"
                 price={83.06}
                 rating={3}
                 img="https://m.media-amazon.com/images/I/81ngtMEQgoL._AC_SX679_.jpg"/>
 
                 <Product
+                id={18}
                 title="Magic Bullet Blender, Small, Silver, 11 Piece Set"
                 price={37.57}
                 rating={3}
@@ -68,6 +76,7 @@ const Home = () => {
 
             <div className='home_row'>
                 <Product 
+                id={19}
                 title="NUBWO G06 Dual Wireless Gaming Headset with Microphone for PS5, PS4, PC, Mobile, Switch: 2.4GHz Wireless + Bluetooth - 100 Hr Battery "
                 price={12.99}
                 rating={4}

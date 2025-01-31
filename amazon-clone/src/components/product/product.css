@@ -37,8 +37,8 @@
 .product_rating{
     display: flex;
 }
-.product_rating .fa-star {
-    color: rgb(227, 195, 18);
+.star {
+    color: rgb(190, 165, 23);
     margin-right: 5px;
 }
 .product:hover{
