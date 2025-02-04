@@ -1,0 +1,38 @@
+.order {
+    padding: 30px 50px;
+    margin: 20px auto;
+    border: 1px solid lightgray;
+    background-color: white;
+    position: relative;
+    max-width: 600px;
+}
+
+.order__id {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+  }
+
+.order__total {
+    font-weight: 600;
+    text-align: right;
+}
+.products{
+    margin: 30px 40px;
+}
+@media(max-width:700px){
+    .order{
+        width: 70%;
+    }
+}
+@media(max-width:600px){
+    .order{
+        width: 60%;
+    }
+    .products{
+        margin: 30px 0px;
+    }
+    .order__id{
+        top: 20px;
+    }
+}

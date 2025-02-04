@@ -50,5 +50,6 @@ const db = getFirestore(firebaseApp);
 const auth = getAuth(firebaseApp);
 
 console.log(firebaseApp); // This should log the initialized Firebase app
+console.log('Firestore DB:', db);
 
 export { db, auth };
